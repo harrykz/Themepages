@@ -1,0 +1,355 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gayathri', sans-serif;
+}
+
+/* Main Header Div */
+.mainimg{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 300px;
+    background-image: url('../img/Batman-Material.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.boundbybloodheading, .downloadnow, .included{
+    margin-bottom: 0px;
+    color: #fff;
+}
+
+.boundbybloodheading{
+    font-weight: bold;
+}
+
+.gamepass{
+    background-color: #fff;
+    color: #000 !important;
+    margin-bottom: 0px;
+}
+
+.rightsideimgOne, .rightsideimgTwo, .rightsideimgThree, .rightsideimgFour{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-position: center center;
+    background-size: cover;
+    height: 150px;
+}
+
+.rightsideimgOne{
+    background-image: url('../img/Batman\ vs\ Superman.jpg');
+}
+
+.rightsideimgTwo{
+    background-image: url('../img/Green\ Arrow.jpg');
+}
+
+.rightsideimgThree{
+    background-image: url('../img/Iron\ Man.jpg');
+}
+
+.rightsideimgFour{
+    background-image: url('../img/Shazam.jpg');
+}
+
+.rightsidetext{
+    margin-bottom: 0px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.iconandtextbox{
+    background-color: #444444;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 73.5px;
+    padding: 10px;
+}
+
+.iconandtext{
+    margin-bottom: 0px;
+    color: #fff;
+}
+
+.iconstext{
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+/* Today's Deal Container */
+.secondcontainer{
+    padding: 20px 0px 20px 0px;
+}
+.todaysdealtext{
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.slick-prev{
+    left: -10px !important;
+}
+
+.slick-next{
+    right: -10px !important;
+}
+
+.carousel, .carousel-inner, .carousel-item{
+    height: 100%;
+}
+
+.fluidimgs{
+    width: 100%;
+    height: 100%;
+}
+
+/* Container Box */
+.containerbox{
+    padding: 50px 0px 50px 0px;
+}
+
+.updownmarg{
+    padding: 30px;
+}
+
+#chevron{
+    transition: 0.5s ease;
+}
+
+.rotatechevron{
+    transition: 0.5s ease;
+    transform: rotate(180deg);
+}
+
+.displayclasshidden{
+    opacity: 0;
+    position: absolute;
+}
+
+.displayclassshown{
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+    position: static;
+}
+
+.hello{
+    margin-bottom: 0px;
+    color: #fff;
+    font-family: 'Titillium Web', sans-serif !important;
+}
+
+.newsletterheading, .newslettertext{
+    color: #000;
+}
+
+.newsletterheading{
+    font-weight: bold;
+}
+
+.submitbtn{
+    width: 100%;
+}
+
+.submitbtn:focus{
+    outline: none;
+}
+
+.cardlikefeel{
+    font-family: 'Titillium Web', sans-serif !important;
+    padding: 15px 25px 15px 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #A5A3A3;
+}
+
+.footerlinecont{
+    padding: 30px 0px 15px 0px;
+}
+
+.footertext{
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 0px !important;
+}
+
+.copyrightlogo{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+@media(min-width: 320px){
+    /* Navbar */
+    .nav-item{
+        text-align: center;
+    }
+    /* Main Header Div */
+    .boundbybloodheading{
+        font-size: 18px;
+    }
+
+    .downloadnow, .included{
+        font-size: 10px;
+    }
+
+    .gamepass{
+        font-size: 8px;
+    }
+
+    .rightsidetext{
+        font-size: 11px;
+    }
+
+    /* Today's Deal Container */
+    .todaysdealtext{
+        font-size: 20px;
+    }
+
+    .onlyleftpadding{
+        margin-top: 5px;
+    }
+
+    /* Slider Div */
+    .heightsdiv{
+        height: 50vh;
+    }
+
+    /* Subscribe Area */
+    .hello{
+        font-size: 20px;
+    }
+
+    .newsletterheading{
+        font-size: 20px;
+    }
+
+    .newslettertext{
+        font-size: 14px;
+    }
+
+    .narrowformpad{
+        margin: 5px 0px 5px 0px;
+    }
+}
+
+@media(min-width: 576px){
+
+    /* Slider Div */
+    .heightsdiv{
+        height:70vh;
+    }
+}
+
+@media(min-width: 768px){
+    /* Main Header Div */
+    .boundbybloodheading{
+        font-size: 20px;
+    }
+
+    .downloadnow, .included{
+        font-size: 12px;
+    }
+
+    .gamepass{
+        font-size: 10px;
+    }
+
+    .onlyrightpadding{
+        padding-right: 2px;
+    }
+
+    .onlyleftpadding{
+        margin-top: 0px;
+        padding-left: 2px;
+    }
+
+    .extraspadding{
+        padding-right: 2px !important; 
+        padding-left: 2px !important;
+    }
+
+    /* Slider Div */
+    .heightsdiv{
+        height: 80vh;
+    }
+
+    /* Subscribe Area */
+    .hello{
+        font-size: 22px;
+    }
+
+    .newsletterheading{
+        font-size: 22px;
+    }
+
+    .newslettertext{
+        font-size: 16px;
+    }
+}
+
+@media(min-width: 992px){
+    /* Navbar */
+    .nav-item{
+        text-align: left;
+    }
+
+    /* Main Header div */
+    .boundbybloodheading{
+        font-size: 24px;
+    }
+
+    .downloadnow, .included{
+        font-size: 16px;
+    }
+
+    .gamepass{
+        font-size: 12px;
+    }
+
+    .rightsidetext{
+        font-size: 16px;
+    }
+
+    /* Today's Deal Container */
+    .todaysdealtext{
+        font-size: 26px;
+    }
+
+    /* Slider Div */
+    .heightsdiv{
+        height: 100vh;
+    }
+
+    /* Subscribe Area */
+    .hello{
+        font-size: 26px;
+    }
+
+    .newsletterheading{
+        font-size: 32px;
+    }
+
+    .newslettertext{
+        font-size: 20px;
+    }
+
+    .narrowformpad{
+        padding: 0px 5px 0px 5px;
+    }
+}
+
+@media(min-width: 1200px){
+
+}

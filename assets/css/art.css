@@ -1,0 +1,30 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gayathri', sans-serif;
+}
+
+.flexboxgrid{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 85vh;
+}
+
+#boxOne, #boxTwo, #boxThree, #boxFour, #boxFive{
+    border: 1px solid black;
+}
+
+.flexboxgrid #boxOne{
+    width: 80%;
+    height: 20%;
+}
+
+.flexboxgrid #boxTwo{
+    width: 20%;
+    height: 80%;
+}
+
+.boxtext{
+    border-bottom: 0px !important;
+}

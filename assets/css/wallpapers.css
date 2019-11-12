@@ -1,0 +1,93 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gayathri', sans-serif;
+}
+
+/* Gallery Area */
+.galleryheading{
+    color: #fff;
+}
+
+.galleryheading:after{
+    position: absolute;
+    content: '';
+    display: block;
+    border-bottom: 3px solid #fff;
+    width: 10%;
+    left: 50%;
+    transform: translate(-50%, 50%)
+}
+
+.myimgs, .mysmallimgs, .mywideimgs{
+    width: 100%;
+}
+
+.shadoweffect{
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    width: 100%;
+    transition: 0.3s ease;
+}
+
+.mysmallimgs:hover{
+    display: block;
+    cursor: pointer;
+}
+
+
+@media(min-width: 320px){
+
+    /*Image Gallery*/
+    .galleryheading{
+        font-size: 20px;
+    }
+
+    .gallerybox{
+        padding: 30px 0px 30px 0px;
+    }
+}
+
+@media(min-width: 576px){
+    .galleryheading{
+        font-size: 25px;
+    }
+}
+
+@media(min-width: 768px){
+    .galleryheading{
+        font-size: 30px;
+    }
+}
+
+@media(min-width: 992px){
+    /*Image Gallery*/
+    .galleryheading{
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+    .gallerybox{
+        padding: 50px 0px 50px 0px;
+    }
+    .myimgs{
+        height: 400px;
+    }
+
+    .mywideimgs{
+        height: 600px;
+    }
+
+    .mysmallimgs{
+        height: 200px;
+    }
+
+    .verynarrowpad{
+        padding: 0px 2px 0px 2px;
+    }
+}
+
+@media(min-width: 1200px){
+    
+}
